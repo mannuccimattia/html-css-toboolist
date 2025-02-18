@@ -3,3 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* header */
+header{
+  padding-left: 40px;
+  line-height: 2;
+  height: 140px;
+}
+
+.w-100{
+  width: 100px;
+}
+
+.v-align-middle{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 70px;
+}
+
