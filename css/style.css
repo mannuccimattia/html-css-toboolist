@@ -71,10 +71,15 @@ main{
   font-weight: 800;
 }
 
+li{
+  margin-bottom: 30px;
+}
+
 .sub-list{
   font-size: 28px;
   font-weight: 100;
-  margin: 10px 10px;
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
 .symbol{
@@ -88,6 +93,11 @@ main{
 .tick{
   color: green;
   border: 1px solid green;
+}
+
+.cross{
+  color: red;
+  border: 1px solid red;
 }
 
 .infobox{
@@ -105,3 +115,27 @@ main{
   border: 1px solid #3FABEC;
 }
 
+.infopurle{
+  background-color: #9874D9;
+  border: 1px solid #9874D9;
+}
+
+.infogreen{
+  background-color: #6BBFAB;
+  border: 1px solid #6BBFAB;
+}
+
+.infoyellow{
+  background-color: #E9A13B;
+  border: 1px solid #E9A13B;
+}
+
+.infopink{
+  background-color: #D37AA0;
+  border: 1px solid #D37AA0;
+}
+
+.infolime{
+  background-color: #ACC722;
+  border: 1px solid #ACC722;
+}
