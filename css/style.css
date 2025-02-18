@@ -36,9 +36,10 @@ h1{
   /* buttons */
 main{
   width: 80%;
-  margin: 50px auto;
-  padding: 20px 100px;
+  margin: 80px auto;
+  padding: 30px 100px;
   background-color: #fff;
+  border-radius: 20px;
 }
 
 .inline-block{
@@ -48,15 +49,21 @@ main{
 .button-size{
   width: 130px;
   height: 50px;
-  font-size: 17px;
+  font-size: 18px;
   border-radius: 10px;
   margin: 0px 3px;
-  color: rgb(179, 175, 175);
+  color: rgb(200, 200, 200);
+  font-weight: 700;
+
 }
 
 #task-button{
-  font-weight: 700;
   background-color: #5BACDA;
+}
+
+#section-button{
+  background-color: #fff;
+  border: 3px solid rgb(190, 190, 190);
 }
   /* end buttons */
 
@@ -66,13 +73,17 @@ main{
 }
 
 .main-list{
-  margin: 50px 0px;
+  margin-top: 60px;
   font-size: 40px;
   font-weight: 800;
 }
 
-li{
-  margin-bottom: 30px;
+.main-list-item{
+  margin-top: 50px;
+}
+
+.sub-list-item{
+  margin: 20px 0px;
 }
 
 .sub-list{
@@ -139,3 +150,5 @@ li{
   background-color: #ACC722;
   border: 1px solid #ACC722;
 }
+  /* end list */
+/*end main  */
